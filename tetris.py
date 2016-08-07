@@ -67,7 +67,7 @@ class TetrisApp(object):
 	def new_shape(self):
 		self.stone = self.next_stone[:]
 		self.next_stone = tet_shapes[rand(len(tet_shapes))]
-		self.stone_x = int(cols / 2 - len(self.stone[0])/2)
+		self.stone_x = int(cols / 2 - len(self.stone[0])/2) # This is to place the tile at the centre. 
 		self.stone_y = 0
 		if check_collision(self.board,
 		                   self.stone,
