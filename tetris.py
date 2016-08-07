@@ -72,7 +72,6 @@ class TetrisApp(object):
 		if check_collision(self.board,
 		                   self.stone,
 		                   (self.stone_x, self.stone_y)):
-			print 'inside gameover set true'
 			self.gameover = True
 
 	def init_game(self):
