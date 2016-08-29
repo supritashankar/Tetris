@@ -1,4 +1,5 @@
 """
+Inspired by @kch42 Laria
 What is a Tetris game: Tetris game is such there are a number of rows and columns
 and one of the 6 random geometric figures comes down. We need to place them
 such that they form a line without any gap in between. Then the row disappears.
